@@ -7,4 +7,5 @@
     2. `npx vitepress init`,
     3. Insert Informations.
 4. Start [a local dev server](https://vitepress.dev/guide/getting-started#up-and-running) `npm run docs:dev`.
-5. Add [deploy.yml](https://vitepress.dev/guide/deploy#github-pages) for GitHub Pages.
+5. Visit `https://github.com/ohno/vitepress-example/settings/pages` and set "Source" to "GitHub Actions".
+6. Add [deploy.yml](https://vitepress.dev/guide/deploy#github-pages) and change `path: docs/.vitepress/dist` to `path: .vitepress/dist` for GitHub Pages.
